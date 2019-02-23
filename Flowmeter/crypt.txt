@@ -1,0 +1,14 @@
+       # cipher_key = Fernet.generate_key()
+       # print(cipher_key)
+       # cipher = Fernet(cipher_key)
+       # password = b'SyncMaster203B'
+       # encr_pass = cipher.encrypt(password)
+       # print(encr_pass)
+       # decrypted_text = cipher.decrypt(encr_pass)
+       # print(decrypted_text)  
+
+       #with shelve.open("data") as data:
+       #    data["key"] = cipher_key #pass key {'pass' : cipher_key}
+       #    print(data["key"])
+       #    data["pass"] = encr_pass
+       #    print(data["pass"])
